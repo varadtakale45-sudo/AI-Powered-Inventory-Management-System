@@ -1,0 +1,1526 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "category": "Electronics",
+        "stock": 30,
+        "price": 65000.0,
+        "sales_history": [
+            12,
+            15,
+            18,
+            20,
+            22,
+            25,
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Mouse",
+        "category": "Accessories",
+        "stock": 100,
+        "price": 699.0,
+        "sales_history": [
+            30,
+            28,
+            35,
+            37,
+            40,
+            42,
+            22
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Keyboard",
+        "category": "Accessories",
+        "stock": 18,
+        "price": 1499,
+        "sales_history": [
+            8,
+            9,
+            11,
+            12,
+            14,
+            15
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Monitor",
+        "category": "Electronics",
+        "stock": 50,
+        "price": 12000.0,
+        "sales_history": [
+            5,
+            6,
+            8,
+            7,
+            9,
+            11,
+            25
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Headphones",
+        "category": "Audio",
+        "stock": 30,
+        "price": 2499,
+        "sales_history": [
+            10,
+            12,
+            15,
+            14,
+            18,
+            20
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "stock": 45,
+        "price": 45000,
+        "sales_history": [
+            22,
+            25,
+            28,
+            30,
+            35,
+            38
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Smartwatch",
+        "category": "Electronics",
+        "stock": 50,
+        "price": 8999,
+        "sales_history": [
+            15,
+            19,
+            22,
+            24,
+            26,
+            30
+        ]
+    },
+    {
+        "id": 8,
+        "name": "USB Flash Drive",
+        "category": "Accessories",
+        "stock": 120,
+        "price": 499,
+        "sales_history": [
+            60,
+            65,
+            72,
+            78,
+            81,
+            85
+        ]
+    },
+    {
+        "id": 9,
+        "name": "External Hard Drive",
+        "category": "Accessories",
+        "stock": 35,
+        "price": 4500,
+        "sales_history": [
+            14,
+            16,
+            18,
+            20,
+            21,
+            24
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Bluetooth Speaker",
+        "category": "Audio",
+        "stock": 42,
+        "price": 3499,
+        "sales_history": [
+            11,
+            13,
+            15,
+            17,
+            18,
+            22
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Wireless Earbuds",
+        "category": "Audio",
+        "stock": 65,
+        "price": 1999,
+        "sales_history": [
+            25,
+            29,
+            34,
+            38,
+            41,
+            45
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Tablet",
+        "category": "Electronics",
+        "stock": 30,
+        "price": 28000.0,
+        "sales_history": [
+            6,
+            8,
+            9,
+            11,
+            12,
+            14,
+            8
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Gaming Chair",
+        "category": "Furniture",
+        "stock": 8,
+        "price": 15999,
+        "sales_history": [
+            2,
+            3,
+            4,
+            3,
+            5,
+            6
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Desk Lamp",
+        "category": "Furniture",
+        "stock": 28,
+        "price": 1299,
+        "sales_history": [
+            7,
+            9,
+            10,
+            12,
+            11,
+            15
+        ]
+    },
+    {
+        "id": 15,
+        "name": "HDMI Cable",
+        "category": "Accessories",
+        "stock": 200,
+        "price": 299,
+        "sales_history": [
+            95,
+            104,
+            115,
+            122,
+            130,
+            142
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Webcam",
+        "category": "Electronics",
+        "stock": 14,
+        "price": 2999,
+        "sales_history": [
+            4,
+            5,
+            7,
+            6,
+            8,
+            10
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Microphone",
+        "category": "Audio",
+        "stock": 20,
+        "price": 5499,
+        "sales_history": [
+            5,
+            7,
+            8,
+            11,
+            10,
+            13
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Power Bank",
+        "category": "Accessories",
+        "stock": 85,
+        "price": 1799,
+        "sales_history": [
+            30,
+            34,
+            39,
+            44,
+            48,
+            52
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Router",
+        "category": "Electronics",
+        "stock": 18,
+        "price": 2499,
+        "sales_history": [
+            3,
+            5,
+            6,
+            6,
+            7,
+            9
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Graphic Tablet",
+        "category": "Electronics",
+        "stock": 12,
+        "price": 7500,
+        "sales_history": [
+            2,
+            3,
+            3,
+            5,
+            4,
+            6
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Laptop Stand",
+        "category": "Accessories",
+        "stock": 33,
+        "price": 999,
+        "sales_history": [
+            8,
+            11,
+            12,
+            14,
+            15,
+            18
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Mouse Pad",
+        "category": "Accessories",
+        "stock": 150,
+        "price": 199,
+        "sales_history": [
+            55,
+            62,
+            70,
+            78,
+            85,
+            92
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Soundbar",
+        "category": "Audio",
+        "stock": 15,
+        "price": 8999,
+        "sales_history": [
+            3,
+            4,
+            6,
+            5,
+            7,
+            8
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Printer",
+        "category": "Electronics",
+        "stock": 9,
+        "price": 11500,
+        "sales_history": [
+            2,
+            3,
+            3,
+            4,
+            5,
+            5
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Office Chair",
+        "category": "Furniture",
+        "stock": 11,
+        "price": 8500,
+        "sales_history": [
+            4,
+            5,
+            6,
+            5,
+            7,
+            9
+        ]
+    },
+    {
+        "id": 26,
+        "name": "TWS Earphones",
+        "category": "Audio",
+        "stock": 70,
+        "price": 2999,
+        "sales_history": [
+            28,
+            33,
+            37,
+            40,
+            44,
+            49
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Mechanical Keyboard",
+        "category": "Accessories",
+        "stock": 24,
+        "price": 4200,
+        "sales_history": [
+            8,
+            11,
+            13,
+            15,
+            17,
+            20
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Gaming Mouse",
+        "category": "Accessories",
+        "stock": 40,
+        "price": 1899,
+        "sales_history": [
+            14,
+            16,
+            19,
+            22,
+            25,
+            27
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Projector",
+        "category": "Electronics",
+        "stock": 6,
+        "price": 35000,
+        "sales_history": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Camera Tripod",
+        "category": "Accessories",
+        "stock": 18,
+        "price": 1499,
+        "sales_history": [
+            4,
+            6,
+            7,
+            9,
+            10,
+            12
+        ]
+    },
+    {
+        "id": 31,
+        "name": "DSLR Camera",
+        "category": "Electronics",
+        "stock": 5,
+        "price": 52000,
+        "sales_history": [
+            1,
+            2,
+            1,
+            2,
+            3,
+            2
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Action Camera",
+        "category": "Electronics",
+        "stock": 12,
+        "price": 18000,
+        "sales_history": [
+            3,
+            4,
+            5,
+            5,
+            6,
+            8
+        ]
+    },
+    {
+        "id": 33,
+        "name": "E-Reader",
+        "category": "Electronics",
+        "stock": 14,
+        "price": 10999,
+        "sales_history": [
+            2,
+            4,
+            5,
+            5,
+            7,
+            8
+        ]
+    },
+    {
+        "id": 34,
+        "name": "VR Headset",
+        "category": "Electronics",
+        "stock": 8,
+        "price": 32000,
+        "sales_history": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Home Theater System",
+        "category": "Audio",
+        "stock": 4,
+        "price": 24999,
+        "sales_history": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Studio Headphones",
+        "category": "Audio",
+        "stock": 16,
+        "price": 7999,
+        "sales_history": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            10
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Charging Cable Type-C",
+        "category": "Accessories",
+        "stock": 300,
+        "price": 199,
+        "sales_history": [
+            120,
+            135,
+            150,
+            168,
+            185,
+            202
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Wireless Charger",
+        "category": "Accessories",
+        "stock": 45,
+        "price": 1499,
+        "sales_history": [
+            8,
+            11,
+            13,
+            15,
+            16,
+            19
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Car Phone Mount",
+        "category": "Accessories",
+        "stock": 65,
+        "price": 499,
+        "sales_history": [
+            15,
+            18,
+            22,
+            26,
+            30,
+            35
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Smart Plug",
+        "category": "Electronics",
+        "stock": 55,
+        "price": 999,
+        "sales_history": [
+            12,
+            15,
+            19,
+            22,
+            25,
+            28
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Smart Bulb",
+        "category": "Electronics",
+        "stock": 90,
+        "price": 699,
+        "sales_history": [
+            30,
+            36,
+            42,
+            49,
+            55,
+            62
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Fitness Tracker",
+        "category": "Electronics",
+        "stock": 38,
+        "price": 3499,
+        "sales_history": [
+            9,
+            12,
+            14,
+            16,
+            18,
+            22
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Memory Card 128GB",
+        "category": "Accessories",
+        "stock": 110,
+        "price": 899,
+        "sales_history": [
+            40,
+            46,
+            53,
+            61,
+            68,
+            74
+        ]
+    },
+    {
+        "id": 44,
+        "name": "SSD 1TB Internal",
+        "category": "Accessories",
+        "stock": 28,
+        "price": 6500,
+        "sales_history": [
+            8,
+            10,
+            12,
+            13,
+            15,
+            18
+        ]
+    },
+    {
+        "id": 45,
+        "name": "RAM 16GB DDR4",
+        "category": "Accessories",
+        "stock": 20,
+        "price": 3800,
+        "sales_history": [
+            5,
+            7,
+            8,
+            10,
+            11,
+            13
+        ]
+    },
+    {
+        "id": 46,
+        "name": "CPU Cooler",
+        "category": "Accessories",
+        "stock": 15,
+        "price": 2499,
+        "sales_history": [
+            3,
+            4,
+            5,
+            6,
+            8,
+            9
+        ]
+    },
+    {
+        "id": 47,
+        "name": "PC Case",
+        "category": "Accessories",
+        "stock": 10,
+        "price": 4999,
+        "sales_history": [
+            2,
+            3,
+            4,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Power Supply 650W",
+        "category": "Accessories",
+        "stock": 13,
+        "price": 5200,
+        "sales_history": [
+            3,
+            4,
+            6,
+            7,
+            8,
+            10
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Graphics Card RTX 4060",
+        "category": "Electronics",
+        "stock": 6,
+        "price": 31000,
+        "sales_history": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Motherboard B650",
+        "category": "Electronics",
+        "stock": 8,
+        "price": 14500,
+        "sales_history": [
+            2,
+            2,
+            3,
+            4,
+            4,
+            5
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Standing Desk",
+        "category": "Furniture",
+        "stock": 5,
+        "price": 22000,
+        "sales_history": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            2
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Monitor Arm",
+        "category": "Accessories",
+        "stock": 25,
+        "price": 2799,
+        "sales_history": [
+            5,
+            7,
+            9,
+            11,
+            12,
+            15
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Screen Cleaner Kit",
+        "category": "Accessories",
+        "stock": 80,
+        "price": 249,
+        "sales_history": [
+            20,
+            24,
+            29,
+            34,
+            39,
+            44
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Laptop Sleeve",
+        "category": "Accessories",
+        "stock": 50,
+        "price": 799,
+        "sales_history": [
+            10,
+            13,
+            15,
+            18,
+            20,
+            24
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Backpack with USB Port",
+        "category": "Accessories",
+        "stock": 35,
+        "price": 1899,
+        "sales_history": [
+            8,
+            10,
+            12,
+            14,
+            17,
+            20
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Voice Recorder",
+        "category": "Audio",
+        "stock": 12,
+        "price": 2999,
+        "sales_history": [
+            2,
+            2,
+            3,
+            4,
+            3,
+            5
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Audio Interface",
+        "category": "Audio",
+        "stock": 9,
+        "price": 9500,
+        "sales_history": [
+            1,
+            3,
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Pop Filter",
+        "category": "Audio",
+        "stock": 40,
+        "price": 499,
+        "sales_history": [
+            8,
+            11,
+            14,
+            16,
+            19,
+            23
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Boom Arm",
+        "category": "Audio",
+        "stock": 18,
+        "price": 1299,
+        "sales_history": [
+            4,
+            5,
+            7,
+            9,
+            11,
+            14
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Ring Light",
+        "category": "Accessories",
+        "stock": 30,
+        "price": 1499,
+        "sales_history": [
+            6,
+            9,
+            12,
+            14,
+            17,
+            22
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Green Screen",
+        "category": "Accessories",
+        "stock": 15,
+        "price": 1999,
+        "sales_history": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+        ]
+    },
+    {
+        "id": 62,
+        "name": "HDMI Switcher",
+        "category": "Accessories",
+        "stock": 22,
+        "price": 899,
+        "sales_history": [
+            4,
+            6,
+            8,
+            9,
+            11,
+            15
+        ]
+    },
+    {
+        "id": 63,
+        "name": "USB Hub 4-Port",
+        "category": "Accessories",
+        "stock": 75,
+        "price": 599,
+        "sales_history": [
+            18,
+            22,
+            27,
+            31,
+            36,
+            42
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Ethernet Cable 10m",
+        "category": "Accessories",
+        "stock": 100,
+        "price": 399,
+        "sales_history": [
+            30,
+            35,
+            41,
+            48,
+            54,
+            63
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Wi-Fi Dongle",
+        "category": "Electronics",
+        "stock": 40,
+        "price": 799,
+        "sales_history": [
+            9,
+            12,
+            15,
+            18,
+            21,
+            26
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Bluetooth Dongle",
+        "category": "Accessories",
+        "stock": 60,
+        "price": 499,
+        "sales_history": [
+            15,
+            19,
+            23,
+            28,
+            32,
+            39
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Thermal Paste",
+        "category": "Accessories",
+        "stock": 90,
+        "price": 349,
+        "sales_history": [
+            25,
+            30,
+            36,
+            41,
+            47,
+            54
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Cable Management Clips",
+        "category": "Accessories",
+        "stock": 200,
+        "price": 149,
+        "sales_history": [
+            65,
+            74,
+            83,
+            92,
+            101,
+            114
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Stylus Pen",
+        "category": "Accessories",
+        "stock": 45,
+        "price": 1299,
+        "sales_history": [
+            7,
+            9,
+            11,
+            13,
+            14,
+            17
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Tablet Stand",
+        "category": "Accessories",
+        "stock": 38,
+        "price": 699,
+        "sales_history": [
+            8,
+            11,
+            13,
+            15,
+            18,
+            21
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Smart Tag Tracker",
+        "category": "Electronics",
+        "stock": 65,
+        "price": 2499,
+        "sales_history": [
+            14,
+            18,
+            22,
+            25,
+            29,
+            35
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Wireless Presenter",
+        "category": "Accessories",
+        "stock": 20,
+        "price": 1199,
+        "sales_history": [
+            3,
+            4,
+            5,
+            7,
+            8,
+            10
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Barcode Scanner",
+        "category": "Electronics",
+        "stock": 11,
+        "price": 3500,
+        "sales_history": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Laminator Machine",
+        "category": "Electronics",
+        "stock": 8,
+        "price": 2800,
+        "sales_history": [
+            1,
+            2,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Paper Shredder",
+        "category": "Electronics",
+        "stock": 7,
+        "price": 4200,
+        "sales_history": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Label Printer",
+        "category": "Electronics",
+        "stock": 13,
+        "price": 5500,
+        "sales_history": [
+            2,
+            3,
+            5,
+            6,
+            7,
+            9
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Calculators Scientific",
+        "category": "Accessories",
+        "stock": 50,
+        "price": 999,
+        "sales_history": [
+            10,
+            14,
+            17,
+            21,
+            25,
+            30
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Desk Mat Large",
+        "category": "Accessories",
+        "stock": 55,
+        "price": 799,
+        "sales_history": [
+            12,
+            15,
+            19,
+            23,
+            27,
+            32
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Foot Rest",
+        "category": "Furniture",
+        "stock": 17,
+        "price": 1499,
+        "sales_history": [
+            2,
+            3,
+            4,
+            5,
+            5,
+            7
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Lumbar Support Pillow",
+        "category": "Furniture",
+        "stock": 25,
+        "price": 1299,
+        "sales_history": [
+            5,
+            7,
+            9,
+            11,
+            12,
+            15
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Whiteboard 3x2 ft",
+        "category": "Furniture",
+        "stock": 12,
+        "price": 1899,
+        "sales_history": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Dry Erase Markers Pack",
+        "category": "Accessories",
+        "stock": 85,
+        "price": 299,
+        "sales_history": [
+            20,
+            25,
+            31,
+            37,
+            43,
+            51
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Extension Board Spike Guard",
+        "category": "Accessories",
+        "stock": 65,
+        "price": 699,
+        "sales_history": [
+            15,
+            19,
+            24,
+            29,
+            35,
+            43
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Uninterruptible Power Supply",
+        "category": "Electronics",
+        "stock": 10,
+        "price": 2999,
+        "sales_history": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Voltage Stabilizer",
+        "category": "Electronics",
+        "stock": 14,
+        "price": 2100,
+        "sales_history": [
+            1,
+            3,
+            3,
+            4,
+            4,
+            6
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Cassette Adapter",
+        "category": "Audio",
+        "stock": 15,
+        "price": 399,
+        "sales_history": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Aux Cable 3.5mm",
+        "category": "Audio",
+        "stock": 120,
+        "price": 149,
+        "sales_history": [
+            35,
+            42,
+            50,
+            59,
+            68,
+            79
+        ]
+    },
+    {
+        "id": 88,
+        "name": "RCA Audio Cable",
+        "category": "Audio",
+        "stock": 40,
+        "price": 249,
+        "sales_history": [
+            5,
+            7,
+            9,
+            11,
+            12,
+            14
+        ]
+    },
+    {
+        "id": 89,
+        "name": "MP3 Player",
+        "category": "Audio",
+        "stock": 18,
+        "price": 1799,
+        "sales_history": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Voice Controlled Speaker",
+        "category": "Audio",
+        "stock": 22,
+        "price": 4499,
+        "sales_history": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            16
+        ]
+    },
+    {
+        "id": 91,
+        "name": "FM Radio Portable",
+        "category": "Audio",
+        "stock": 30,
+        "price": 999,
+        "sales_history": [
+            3,
+            5,
+            6,
+            8,
+            9,
+            12
+        ]
+    },
+    {
+        "id": 92,
+        "name": "CD Player Portable",
+        "category": "Audio",
+        "stock": 8,
+        "price": 2499,
+        "sales_history": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Sound Proofing Foam Pack",
+        "category": "Audio",
+        "stock": 25,
+        "price": 1599,
+        "sales_history": [
+            3,
+            5,
+            7,
+            8,
+            10,
+            13
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Guitar Cable",
+        "category": "Audio",
+        "stock": 35,
+        "price": 499,
+        "sales_history": [
+            6,
+            8,
+            10,
+            12,
+            14,
+            18
+        ]
+    },
+    {
+        "id": 95,
+        "name": "DJ Controller Entry-Level",
+        "category": "Audio",
+        "stock": 4,
+        "price": 18500,
+        "sales_history": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Karaoke Microphone",
+        "category": "Audio",
+        "stock": 20,
+        "price": 1299,
+        "sales_history": [
+            4,
+            6,
+            7,
+            9,
+            11,
+            15
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Noise Cancelling Earplugs",
+        "category": "Audio",
+        "stock": 50,
+        "price": 799,
+        "sales_history": [
+            10,
+            13,
+            16,
+            19,
+            22,
+            27
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Megaphone",
+        "category": "Audio",
+        "stock": 6,
+        "price": 1499,
+        "sales_history": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Audio Mixer 4-Channel",
+        "category": "Audio",
+        "stock": 7,
+        "price": 5999,
+        "sales_history": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Wireless Guitar System",
+        "category": "Audio",
+        "stock": 10,
+        "price": 3899,
+        "sales_history": [
+            1,
+            2,
+            3,
+            3,
+            4,
+            6
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Arduino",
+        "category": "Electronics",
+        "stock": 25,
+        "price": 1199.0,
+        "sales_history": [
+            7
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Arduino UNO",
+        "category": "Electronics",
+        "stock": 100,
+        "price": 1099.0,
+        "sales_history": [
+            75
+        ]
+    }
+]

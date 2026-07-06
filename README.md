@@ -1,211 +1,178 @@
-# AI-Powered Inventory Management System
+# AI Smart Inventory Management System
 
-An intelligent inventory management system built with **Python, Flask, and TensorFlow** that predicts future product demand using machine learning and provides smart restocking recommendations. The application enables businesses to efficiently manage inventory through a user-friendly web interface with complete CRUD functionality.
-
----
-
-## 🚀 Features
-
-- Add, update, delete, and manage products
-- Search products by name
-- AI-powered demand prediction using TensorFlow
-- Automatic stock status analysis
-- Smart restock recommendations
-- JSON-based data storage
-- Responsive Flask web application
-- Beginner-friendly project structure
+An intelligent inventory management system that combines a **Flask** web application with a **TensorFlow** machine learning model to predict future product demand and automate restocking recommendations.
 
 ---
 
-## 🛠 Tech Stack
+##  Overview
 
-**Frontend**
-- HTML
-- CSS
-- JavaScript
-
-**Backend**
-- Python
-- Flask
-
-**Machine Learning**
-- TensorFlow / Keras
-
-**Database**
-- JSON
+Traditional inventory systems rely on manual decision-making, making it hard to estimate future demand accurately. This project solves that by using AI to analyze historical sales data and forecast demand — reducing overstocking, understocking, and storage costs.
 
 ---
 
-## 📂 Project Structure
+## Features
+
+- Full **CRUD** operations for product management
+- Lightweight **JSON**-based database
+- **TensorFlow** neural network for demand forecasting
+- Automatic **restock recommendations**
+- **Flask** web interface — beginner-friendly and easy to use
+- Modular code structure
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Backend | Python, Flask |
+| Machine Learning | TensorFlow |
+| Database | JSON |
+| Frontend | HTML, CSS, JavaScript |
+
+---
+
+## Project Structure
 
 ```
-AI-Powered Inventory Management System/
+AI-Smart-Inventory/
 │
-├── app.py                    # Flask application
-├── train_model.py            # Train AI model
-├── predict.py                # Demand prediction
-├── preprocess.py             # Data preprocessing
-├── model.py                  # Model architecture
-├── inventory_model.keras     # Trained model
-├── products.json             # Inventory database
-├── requirements.txt
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
+├── app.py                  # Flask application entry point
+├── train_model.py          # Model training script
+├── predict.py              # Demand prediction script
+├── preprocess.py           # Data preprocessing script
+├── products.json           # JSON-based product database
+├── inventory_model.keras   # Saved TensorFlow model
+├── requirements.txt        # Python dependencies
+└── templates/              # HTML templates
 ```
 
 ---
 
-## ⚙️ How It Works
-
-1. Add products with stock details and sales history.
-2. Store inventory data in a JSON database.
-3. Preprocess historical sales data.
-4. Train a TensorFlow model.
-5. Predict future product demand.
-6. Compare predicted demand with available stock.
-7. Display intelligent restocking recommendations.
-
----
-
-## 🧠 Machine Learning Pipeline
+## System Workflow
 
 ```
-Sales Data
-      │
-      ▼
-Data Preprocessing
-      │
-      ▼
-TensorFlow Model Training
-      │
-      ▼
-Saved Keras Model
-      │
-      ▼
-Demand Prediction
-      │
-      ▼
-Restock Recommendation
+User Input
+    ↓
+Add / Update Product
+    ↓
+products.json
+    ↓
+preprocess.py  →  Training Dataset
+    ↓
+train_model.py  →  TensorFlow Model
+    ↓
+inventory_model.keras
+    ↓
+predict.py  →  Demand Prediction
+    ↓
+Inventory Dashboard
 ```
 
 ---
 
-## 📊 Functionalities
+## AI Methodology
 
-- Product Management (CRUD)
-- Inventory Dashboard
-- Sales Tracking
-- Demand Prediction
-- Stock Monitoring
-- Search Products
-- Restock Alerts
+The machine learning pipeline consists of the following stages:
+
+1. **Data Collection** — Historical sales data per product stored in JSON
+2. **Data Preprocessing** — Sales history converted into input-output pairs
+3. **Model Training** — A feedforward neural network trained on the processed data
+4. **Model Saving** — Trained model saved as `inventory_model.keras`
+5. **Prediction** — Model predicts next week's demand from recent sales
+6. **Decision Making** — Predicted demand vs. available stock triggers restock alerts
+
+**Example:**
+
+| Sales History | Predicted Demand |
+|---|---|
+| 12, 15, 18, 20, 22, 25 | **28 Units** |
 
 ---
 
-## 💻 Installation
+## CRUD Operations
 
-### Clone the repository
+| Operation | Description |
+|---|---|
+| **Create** | Add new products to the inventory |
+| **Read** | Display all inventory items on the dashboard |
+| **Update** | Modify stock quantity and log new weekly sales |
+| **Delete** | Remove products from inventory |
 
+---
+
+## Installation
+
+**1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/AI-Powered-Inventory-Management-System.git
-cd AI-Powered-Inventory-Management-System
+git clone https://github.com/yourusername/AI-Smart-Inventory.git
+cd AI-Smart-Inventory
 ```
 
-### Install dependencies
-
+**2. Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### Train the model
-
+**3. Train the AI model**
 ```bash
 python train_model.py
 ```
 
-### Run the application
-
+**4. Run the application**
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
-
+**5. Open your browser and visit**
 ```
 http://127.0.0.1:5000
 ```
 
 ---
 
-## 📸 Project Workflow
+## Example Workflow
 
-```
-User
-   │
-   ▼
-Inventory Dashboard
-   │
-   ▼
-Add / Update Products
-   │
-   ▼
-Store Data (JSON)
-   │
-   ▼
-AI Prediction Model
-   │
-   ▼
-Demand Forecast
-   │
-   ▼
-Stock Analysis
-   │
-   ▼
-Restock Recommendation
-```
+1. Add a product with stock quantity and sales history
+2. Train the TensorFlow model
+3. Open the inventory dashboard
+4. AI predicts future demand
+5. Update weekly sales as they occur
+6. AI generates a new demand prediction
+7. Restock products when recommended
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - Python Programming
-- Flask Development
-- TensorFlow
-- Machine Learning
+- Flask Web Development
+- TensorFlow Machine Learning
 - Data Preprocessing
+- JSON Data Handling
 - CRUD Operations
-- Inventory Management
-- Web Development
-- AI Integration
+- AI Model Deployment
+- HTML / CSS / JavaScript
+- Inventory Management Concepts
 
 ---
 
-## 🔮 Future Improvements
+## Future Scope
 
-- SQLite/MySQL database
+- SQLite / MySQL database integration
+- Barcode and QR code scanning
 - User authentication
-- Barcode/QR code support
-- Product image upload
-- Sales analytics dashboard
-- Email notifications
 - Cloud deployment
-- Multi-user access
-- Multi-warehouse management
-- LSTM-based forecasting
+- Email notifications for restock alerts
+- Sales analytics dashboard
+- Multiple warehouse support
+- Product image upload
+- LSTM model for improved time-series forecasting
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
----
-
-⭐ If you found this project useful, consider giving it a star!
+```

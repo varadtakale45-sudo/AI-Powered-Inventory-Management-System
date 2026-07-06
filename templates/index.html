@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Inventory Management</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📦 AI Smart Inventory Management</h1>
+
+    <!-- Search -->
+    <form method="GET" action="/">
+        <input type="text" name="search" placeholder="Search Product">
+        <button type="submit">Search</button>
+    </form>
+
+    <hr>
+
+    <!-- Add Product -->
+    <h2>Add Product</h2>
+
+    <form action="/add" method="POST">
+
+        <input type="text" name="name" placeholder="Product Name" required>
+
+        <input type="text" name="category" placeholder="Category" required>
+
+        <input type="number" name="stock" placeholder="Stock" required>
+
+        <input type="number" step="0.01" name="price" placeholder="Price" required>
+
+        <input type="number" name="sales" placeholder="Latest Sale" required>
+
+        <button type="submit">Add Product</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Inventory</h2>
+
+    <table>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Stock</th>
+            <th>Price (₹)</th>
+            <th>Last Sale</th>
+            <th>AI Prediction</th>
+            <th>Status</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+
+        {% for p in products %}
+
+        <tr>
+
+            <form action="/update/{{ p.id }}" method="POST">
+
+                <!-- Hidden values -->
+                <input type="hidden" name="name" value="{{ p.name }}">
+                <input type="hidden" name="category" value="{{ p.category }}">
+                <input type="hidden" name="price" value="{{ p.price }}">
+
+                <td>{{ p.id }}</td>
+
+                <td>{{ p.name }}</td>
+
+                <td>{{ p.category }}</td>
+
+                <!-- Editable Stock -->
+                <td>
+                    <input
+                        type="number"
+                        name="stock"
+                        value="{{ p.stock }}"
+                        required>
+                </td>
+
+                <td>{{ p.price }}</td>
+
+                <!-- Latest Sale -->
+                <td>
+
+                    <b>{{ p.last_sale }}</b>
+
+                    <br><br>
+
+                    <input
+                        type="number"
+                        name="sales"
+                        placeholder="New Sale"
+                        required>
+
+                </td>
+
+                <!-- AI Prediction -->
+                <td>
+
+                    {{ p.prediction }}
+
+                </td>
+
+                <!-- Status -->
+                <td>
+
+                    {% if p.status == "Restock Needed" %}
+
+                        <span class="low">
+                            {{ p.status }}
+                        </span>
+
+                    {% else %}
+
+                        <span class="good">
+                            {{ p.status }}
+                        </span>
+
+                    {% endif %}
+
+                </td>
+
+                <!-- Update -->
+                <td>
+
+                    <button
+                        type="submit"
+                        class="update">
+
+                        Update
+
+                    </button>
+
+                </td>
+
+            </form>
+
+            <!-- Delete -->
+
+            <td>
+
+                <a
+                    href="/delete/{{ p.id }}"
+                    class="delete">
+
+                    Delete
+
+                </a>
+
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
